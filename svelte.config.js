@@ -16,7 +16,7 @@ const config = {
 				include: ["/*"],
 				exclude: ["<all>"]
 			}
-		})
+		}),
 	}
 };
 

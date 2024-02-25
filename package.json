@@ -11,7 +11,7 @@
 		"test": "vitest",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
-		"publish": "npm run build && wrangler publish"
+		"publish": "npm run build && wrangler deploy"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
@@ -36,6 +36,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"openai": "^4.28.0"
+		"@cloudflare/ai": "^1.0.50"
 	}
 }
