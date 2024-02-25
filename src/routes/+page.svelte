@@ -2,6 +2,7 @@
 	let textValue = 'The quick brown fox jumps over the lazy dog';
 	let lieStatement = '';
 	const handleClick = async () => {
+		lieStatement = ``;
 		const response = await fetch('https://cloud-vector.purplelemons.dev/query', {
 			method: 'POST',
 			headers: {
